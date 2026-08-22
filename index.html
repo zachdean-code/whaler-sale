@@ -26,6 +26,13 @@ body{
   font-size:clamp(2rem,6vw,3.5rem);
   font-weight:bold;
 }
+.original-price{
+  margin-right:.35em;
+  color:#555;
+  font-size:.65em;
+  text-decoration-color:#b00000;
+  text-decoration-thickness:4px;
+}
 .buttons{
   margin:12px 0 20px;
   display:flex;
@@ -64,7 +71,7 @@ h2{
 
 <img class="flyer" src="flyer.png" alt="Boston Whaler Flyer">
 
-<div class="price">Asking Price: $23,900</div>
+<div class="price">Asking Price: <del class="original-price">$26,600</del> $25,900</div>
 
 <div class="buttons">
 <a href="sms:+19174079077">Text Zach</a>
